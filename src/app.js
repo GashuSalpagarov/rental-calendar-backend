@@ -5,7 +5,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 
 const connectDB = require('./config/db');
-const cronJobs = require('./utils/cronJobs');
+// const cronJobs = require('./utils/cronJobs');
 
 const authRoutes = require('./routes/authRoutes');
 const bookingRoutes = require('./routes/bookingRoutes');
